@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+a {
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+  flex: 1 1 auto;
+
+  background-color: var(--color--nav-link-background);
+  color: var(--color--body-foreground);
+
+  display: flex;
+  gap: 0.5rem;
+
+  padding: 1rem;
+
+  border-radius: 0.2rem;
+
+  text-decoration: none;
+}
+a:hover {
+  background-color: var(--color--nav-link-background--hover);
+}
